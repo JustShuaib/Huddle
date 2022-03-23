@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Font awesome link -->
+    <script
+      src="https://kit.fontawesome.com/4437dc6d2c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>
+      Frontend Mentor | Huddle landing page with single introductory section
+    </title>
+  </head>
+  <body class="bg-pry-violet">
+    <!-- Mobile screen background Image -->
+    <img
+      src="./images/bg-mobile.svg"
+      class="absolute -z-10 w-full lg:hidden"
+      alt=""
+    />
+    <!-- Desktop screen background Image -->
+    <img
+      src="./images/bg-desktop.svg"
+      class="absolute -z-10 hidden max-h-full lg:block"
+      alt=""
+    />
+    <!-- Logo -->
+    <img
+      src="./images/logo.svg"
+      alt="logo"
+      class="my-7 ml-7 w-32 lg:my-10 lg:w-36"
+    />
+    <!-- Main section -->
+    <main
+      class="relative z-10 mx-auto grid max-w-xl place-content-center px-10 text-white lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:place-content-start lg:gap-x-6"
+    >
+      <!-- Picture -->
+      <div class="lg:col-span-1">
+        <img
+          src="./images/illustration-mockups.svg"
+          alt="Illustration"
+          class="my-9 lg:my-0"
+        />
+      </div>
+      <!-- Text -->
+      <article>
+        <h1
+          class="font-poppings mb-4 text-center text-xl font-semibold leading-8 lg:mt-8 lg:text-left lg:text-3xl lg:leading-10"
+        >
+          Build The Community Your Fans Will Love
+        </h1>
+        <p
+          class="font-open-sans mb-8 text-center font-light tracking-wide lg:text-left"
+        >
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <button type="button" class="register-btn">Register</button>
+      </article>
+    </main>
+    <!-- Social Media links -->
+    <section class="mt-10 mb-6 w-full text-center lg:pr-16 lg:text-right">
+      <button type="button">
+        <i class="fa-brands fa-facebook-f px-0.75"></i>
+      </button>
+      <button type="button"><i class="fa-brands fa-twitter"></i></button>
+      <button type="button">
+        <i class="fa-brands fa-instagram px-0.5"></i>
+      </button>
+    </section>
+    <!-- Made by me section -->
+    <footer class="pb-6 text-center font-bold text-white lg:text-lg">
+      <p class="attribution">
+        Challenge by
+        <a
+          class="hover:text-pry-magenta text-black"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >
+        <br />
+        Coded by
+        <a
+          class="hover:text-pry-magenta text-black"
+          href="https://www.frontendmentor.io/profile/JustShuaib"
+          >Adeoti Shuaib</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
